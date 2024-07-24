@@ -8,7 +8,7 @@ type ButtonProps = {
 };
 function Button({ type, fill, text }: ButtonProps) {
   return (
-    <div className={`${type === "outlined" ? "h-[60px] text-black " : "h-[66px] text-white"} w-full font-manrope`}>
+    <div className={`${type === "outlined" ? "h-[60px] text-black " : "h-[66px] text-white"} w-full font-manrope flex items-center space-x-[10px]`}>
       <WhatShot fill={`${type === "outlined" ? "#1A1A1A" : "#FFFFFF"}`}/>
       <p className="font-[600] text-[20px] leading-[30px]">{text}</p>
     </div>
