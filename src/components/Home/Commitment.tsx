@@ -4,8 +4,8 @@ import Button from "../Global/Button";
 function Commitment() {
   return (
     <div className="p-[20px] lg:p-[40px_80px] flex items-center justify-center font-manrope  ">
-      <div className="border shadow w-full lg:w-[80%] p-[40px_20px] rounded-[10px] flex flex-col items-center justify-center space-y-[20px]">
-        <p className="text-primary font-[700] text-[24px] text-center">
+      <div className="border shadow w-full lg:w-[80%] p-[40px_20px] rounded-[10px] flex flex-col items-center justify-center space-y-[10px] lg:space-y-[20px]">
+        <p className="text-primary font-[700] text-[16px] lg:text-[24px] text-center">
           Our Commitment to Charity
         </p>
         <p className="w-full lg:w-[60%] text-[14px] lg:text-[16px] text-center text-typography">
