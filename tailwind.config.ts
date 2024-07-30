@@ -11,6 +11,11 @@ const config: Config = {
       fontFamily:{
         manrope: ['Manrope', 'sans-serif'],
       },
+      colors:{
+        primary: "#4B0082",
+        typography: "#323337",
+        typography2: "#1A1A1A",
+      }
     },
   },
   plugins: [],
