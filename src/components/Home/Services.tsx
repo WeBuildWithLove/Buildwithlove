@@ -10,7 +10,7 @@ function Services() {
           Your Business
         </p>
       </div>
-      <div className="grid lg:grid-cols-2 w-full mt-[20px] gap-[40px]">
+      <div className="grid lg:grid-cols-2 w-full lg:w-[80%] mt-[40px] gap-[40px]">
         <div className="p-[10px]  lg:p-[20px] border rounded-[10px]">
           <div className="border lg:h-[63px] h-[30px] w-[30px] lg:w-[63px] rounded-[10px]"></div>
           <p className="mt-[10px] text-[16px] lg:text-[24px] font-[700] text-typography2">

@@ -1,8 +1,8 @@
 import Commitment from "@/components/Home/Commitment";
 import HomeHero from "@/components/Home/HomeHero";
-import Services from "@/components/Home/Services";
 import Layout from "@/layout";
 import Image from "next/image";
+import Services from "./services/Services";
 
 export default function Home() {
   return (
