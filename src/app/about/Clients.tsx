@@ -62,7 +62,7 @@ const Clients = () => {
           Our Client’s Reviews
         </h3>
         <p className="text-[10px] md:text-xl md:leading-[31.2px] text-center font-light">
-          Our clients' feedback is a testament to our dedication, creativity,
+          Our client&apos;s feedback is a testament to our dedication, creativity,
           and expertise. Read on to see how we have transformed businesses,
           enhanced online presence, and created seamless digital experiences
           that drive success.
