@@ -74,90 +74,136 @@ export const TEAMS = [
   },
 ];
 
-
-
 // REVIEWS
 export const REVIEWS = [
   {
     name: "Mfoniso Ibokette",
     position: "Designer BWL",
-    text:
-      "“The work was done superbly, they were able to present my ideas in visuals, from the flowcharts to illustration, Excellent!”",
+    text: "“The work was done superbly, they were able to present my ideas in visuals, from the flowcharts to illustration, Excellent!”",
     image: "/mfoniso.png",
   },
   {
     name: "Shalom James",
     position: "Designer BWL",
-    text:
-      "“From the onboarding to the work proper and then the revisions and the final work, it was an exception experience working with Viraaly on our deck.”",
+    text: "“From the onboarding to the work proper and then the revisions and the final work, it was an exception experience working with Viraaly on our deck.”",
     image: "/shalom.png",
   },
   {
     name: "Aniebiet Obo",
     position: "Developer BWL",
-    text:
-      "“Build With Love provided us with reliable and efficient web solutions that streamlined our business operations. ",
+    text: "“Build With Love provided us with reliable and efficient web solutions that streamlined our business operations. ",
     image: "/aniebet.png",
   },
   {
     name: "Aniebiet Obo",
     position: "Developer BWL",
-    text:
-      "“Build With Love provided us with reliable and efficient web solutions that streamlined our business operations. ",
+    text: "“Build With Love provided us with reliable and efficient web solutions that streamlined our business operations. ",
     image: "/aniebet.png",
   },
   {
     name: "Aniebiet Obo",
     position: "Developer BWL",
-    text:
-      "“Build With Love provided us with reliable and efficient web solutions that streamlined our business operations. ",
+    text: "“Build With Love provided us with reliable and efficient web solutions that streamlined our business operations. ",
     image: "/aniebet.png",
   },
 ];
-
 
 // FAQs
 export const FAQS = [
   {
     question: "What services does BuildWithLove offer?",
-    answer: "We offer website development, portfolio development, UI/UX design, digital marketing, branding and identity, and consulting and strategy.",
+    answer:
+      "We offer website development, portfolio development, UI/UX design, digital marketing, branding and identity, and consulting and strategy.",
   },
   {
     question: "How can I get started with BuildWithLove?",
-    answer: "Contact us through our website’s contact form, call us at [Your Phone Number], or email us at [Your Email Address]. We’ll schedule a consultation to discuss your needs and goals.",
+    answer:
+      "Contact us through our website’s contact form, call us at [Your Phone Number], or email us at [Your Email Address]. We’ll schedule a consultation to discuss your needs and goals.",
   },
   {
     question: "How long does it take to build a website?",
-    answer: "Timelines vary depending on the project. Typically, it takes from a few weeks to a few months.",
+    answer:
+      "Timelines vary depending on the project. Typically, it takes from a few weeks to a few months.",
   },
   {
-    question: "What are the criteria for selecting small businesses for the charity initiative?",
-    answer: "We prioritize businesses that show a clear need and vision for their digital goals.",
+    question:
+      "What are the criteria for selecting small businesses for the charity initiative?",
+    answer:
+      "We prioritize businesses that show a clear need and vision for their digital goals.",
   },
   {
     question: "How much does it cost to develop a website with BuildWithLove?",
-    answer: "Costs vary based on project complexity. We provide customized quotes after understanding your needs.",
+    answer:
+      "Costs vary based on project complexity. We provide customized quotes after understanding your needs.",
   },
 ];
-
 
 // SERVICES
 export const SERVICES = [
   {
     text: "Website Development",
-    description: "We specialize in custom website design that reflects your brand's identity and caters to your audience, ensuring seamless functionality across all devices. Our services include secure eCommerce solutions, easy-to-manage content management systems (CMS) like WordPress and Joomla, and ongoing maintenance and support to keep your site updated and secure.",
+    description:
+      "We specialize in custom website design that reflects your brand's identity and caters to your audience, ensuring seamless functionality across all devices. Our services include secure eCommerce solutions, easy-to-manage content management systems (CMS) like WordPress and Joomla, and ongoing maintenance and support to keep your site updated and secure.",
   },
   {
     text: "Portfolio Development",
-    description: "Our portfolio development services encompass creating personal portfolios that beautifully showcase your skills and projects, unique and captivating designs for artists, designers, and photographers, and professional portfolios that effectively highlight your career achievements and progress.",
+    description:
+      "Our portfolio development services encompass creating personal portfolios that beautifully showcase your skills and projects, unique and captivating designs for artists, designers, and photographers, and professional portfolios that effectively highlight your career achievements and progress.",
   },
   {
     text: "UI/UX Design",
-    description: "Our UI/UX design services include comprehensive user research and analysis to understand your audience's needs, wireframing and prototyping to visualize user journeys and interfaces, creating engaging visual designs aligned with your brand, and conducting usability testing to ensure intuitive and user-friendly experiences",
+    description:
+      "Our UI/UX design services include comprehensive user research and analysis to understand your audience's needs, wireframing and prototyping to visualize user journeys and interfaces, creating engaging visual designs aligned with your brand, and conducting usability testing to ensure intuitive and user-friendly experiences",
   },
   {
     text: "Digital Marketing",
-    description: "Our digital marketing services primarily focus on SEO to improve search engine visibility. We also offer content marketing to drive conversions with engaging content and social media management to increase brand awareness. Additionally, we provide targeted email marketing campaigns to nurture leads and retain customers, ensuring a comprehensive approach to boosting your online presence.",
+    description:
+      "Our digital marketing services primarily focus on SEO to improve search engine visibility. We also offer content marketing to drive conversions with engaging content and social media management to increase brand awareness. Additionally, we provide targeted email marketing campaigns to nurture leads and retain customers, ensuring a comprehensive approach to boosting your online presence.",
   },
+];
 
+// PORTFOLIO
+export const PORTFOLIO = [
+  {
+    image: "/port1.svg",
+    project: "Website Design for HOD LEGAL",
+    description:
+      "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry.",
+      link: "/"
+  },
+  {
+    image: "/port2.svg",
+    project: "Website Design for HOD LEGAL",
+    description:
+      "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry.",
+      link: "/"
+  },
+  {
+    image: "/port1.svg",
+    project: "Website Design for HOD LEGAL",
+    description:
+      "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry.",
+      link: "/"
+  },
+  {
+    image: "/port2.svg",
+    project: "Website Design for HOD LEGAL",
+    description:
+      "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry.",
+      link: "/"
+  },
+  {
+    image: "/port1.svg",
+    project: "Website Design for HOD LEGAL",
+    description:
+      "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry.",
+      link: "/"
+  },
+  {
+    image: "/port2.svg",
+    project: "Website Design for HOD LEGAL",
+    description:
+      "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry.",
+      link: "/"
+  },
 ];
