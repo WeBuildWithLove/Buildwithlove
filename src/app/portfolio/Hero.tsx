@@ -8,7 +8,7 @@ const Hero = () => {
           Our Portfolio of <span className="text-[#4B0082]">Excellence</span>
         </h1>
         <p className="w-[202px] md:w-full text-center text-[8px] text-[#323337] md:text-sm lg:text-xl">
-          Check out some of the amazing projects we've had the pleasure of
+          Check out some of the amazing projects we&apos;ve had the pleasure of
           working on. From small business websites to portfolios for well-known
           personalities, our work speaks for itself
         </p>
