@@ -7,7 +7,7 @@ import { LuPhone } from "react-icons/lu";
 function Footer() {
   return (
     <div className="grid gap-y-[20px] p-[20px_30px] font-manrope mt-[50px]">
-      <div className="grid  lg:grid-cols-4 gap-[40px]">
+      <div className="grid  lg:grid-cols-3 gap-[40px]">
         <div className=" ">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti,
           repellendus ipsa. Corrupti, consequatur quisquam repellendus possimus
@@ -40,7 +40,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="">
+        {/* <div className="">
           <p className="uppercase text-[20px] font-[600]">
             SUBSCRIBE to our Newsletter
           </p>
@@ -55,7 +55,7 @@ function Footer() {
             />
             <Button type="filled" fill="#4B0082" text="Subscribe" />
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="w-full border-t p-[20px] border-[#CFCFD1] flex items-center justify-center space-x-[5px] mt-[50px]">
       <FaRegCopyright />

@@ -5,11 +5,15 @@ import React from "react";
 import Button from "./Button";
 import { FiMenu } from "react-icons/fi";
 import { FiPlus } from "react-icons/fi";
+import { useRouter } from "next/navigation";
 
 function Navbar() {
+  const router = useRouter();
+  // const ;
+  console.log(router);
   const [open, setOpen] = React.useState(false);
   return (
-    <div className="flex items-center justify-between p-0 lg:p-[20px_30px] border font-manrope sticky bg-white top-0">
+    <div className="flex items-center justify-between p-0 lg:p-[20px_30px] border font-manrope sticky bg-white top-0 z-20 shadow">
       <div className="p-[20px] lg:p-0 flex items-center justify-between lg:justify-start w-full lg:w-fit">
         <Link href="/">loll</Link>
         <div className="lg:hidden " onClick={() => setOpen(!open)}>
