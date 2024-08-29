@@ -6,6 +6,7 @@ type ButtonProps = {
   type: "outlined" | "filled";
   text: string;
 };
+
 function Button({ type, fill, text }: ButtonProps) {
   return (
     <button
