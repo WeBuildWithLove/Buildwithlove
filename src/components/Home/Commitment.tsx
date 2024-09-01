@@ -1,10 +1,11 @@
 import React from "react";
 import Button from "../Global/Button";
+import Image from "next/image";
 
 function Commitment() {
   return (
-    <div className="p-[20px] lg:p-[50px_60px] flex items-center justify-center font-manrope  ">
-      <div className="border shadow w-full lg:w-[80%] p-[40px_20px] rounded-[10px] flex flex-col items-center justify-center space-y-[10px] lg:space-y-[20px]">
+    <div className="p-[20px] lg:p-[50px_60px] flex items-center justify-center font-manrope lg:w-[1300px] mx-auto  ">
+      <div className="border shadow w-full lg:w-[90%] p-[40px_20px] rounded-[10px] flex flex-col items-center justify-center space-y-[10px] lg:space-y-[20px] relative">
         <p className="text-primary font-[700] text-[16px] lg:text-[24px] text-center">
           Our Commitment to Charity
         </p>
@@ -18,6 +19,12 @@ function Commitment() {
         <div className="w-[150px] lg:w-[18%]">
           <Button type="filled" text="Apply Now" fill="#4B0082" />
         </div>
+        <Image
+          src="/romance.svg"
+          alt="charity"
+          width={220}
+          height={220}
+          className="lg:absolute right-0 bottom-0 mx-auto" />
       </div>
     </div>
   );

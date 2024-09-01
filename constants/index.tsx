@@ -144,21 +144,25 @@ export const SERVICES = [
     text: "Website Development",
     description:
       "We specialize in custom website design that reflects your brand's identity and caters to your audience, ensuring seamless functionality across all devices. Our services include secure eCommerce solutions, easy-to-manage content management systems (CMS) like WordPress and Joomla, and ongoing maintenance and support to keep your site updated and secure.",
+      image: "/website.svg"
   },
   {
     text: "Portfolio Development",
     description:
       "Our portfolio development services encompass creating personal portfolios that beautifully showcase your skills and projects, unique and captivating designs for artists, designers, and photographers, and professional portfolios that effectively highlight your career achievements and progress.",
+      image: "portfolio.svg"
   },
   {
     text: "UI/UX Design",
     description:
       "Our UI/UX design services include comprehensive user research and analysis to understand your audience's needs, wireframing and prototyping to visualize user journeys and interfaces, creating engaging visual designs aligned with your brand, and conducting usability testing to ensure intuitive and user-friendly experiences",
+      image:"/design.svg"
   },
   {
     text: "Digital Marketing",
     description:
       "Our digital marketing services primarily focus on SEO to improve search engine visibility. We also offer content marketing to drive conversions with engaging content and social media management to increase brand awareness. Additionally, we provide targeted email marketing campaigns to nurture leads and retain customers, ensuring a comprehensive approach to boosting your online presence.",
+      image: "/marketing.svg"
   },
 ];
 

@@ -21,7 +21,8 @@ const Services = () => {
             key={service.text}
             title={service.text}
             description={service.description}
-            icon={<BsPersonWorkspace className="icon" color="#4B0082" />}
+            img={service.image}
+            // icon={<BsPersonWorkspace className="icon" color="#4B0082" />}
           />
         ))}
       </div>
