@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client"
 
 import Link from "next/link";
@@ -15,7 +16,9 @@ function Navbar() {
   return (
     <div className="flex items-center justify-between p-0 lg:p-[20px_30px] border font-manrope sticky bg-white top-0 z-20 shadow">
       <div className="p-[20px] lg:p-0 flex items-center justify-between lg:justify-start w-full lg:w-fit">
-        <Link href="/">loll</Link>
+      <Link href="/">
+          <img src='/wecrete.png' className="w-[150px]" alt="" />
+          </Link>
         <div className="lg:hidden " onClick={() => setOpen(!open)}>
           <FiMenu className="text-[25px]" />
         </div>

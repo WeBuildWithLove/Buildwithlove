@@ -1,18 +1,21 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Button from "./Button";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaRegCopyright, FaSquareXTwitter } from "react-icons/fa6";
 import { CiMail } from "react-icons/ci";
 import { LuPhone } from "react-icons/lu";
+import Link from "next/link";
+import Image from "next/image";
 function Footer() {
   return (
     <div className="grid gap-y-[20px] p-[20px_30px] font-manrope mt-[50px]">
       <div className="grid  lg:grid-cols-3 gap-[40px]">
         <div className=" ">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti,
-          repellendus ipsa. Corrupti, consequatur quisquam repellendus possimus
-          asperiores, quo inventore ea, corporis quibusdam quis doloribus. Iste
-          atque aut iusto soluta minus.
+          <Link href="/">
+          <img src='/wecrete.png' className="w-[150px]" alt="" />
+          </Link>
+        <p>At Wecre8T, we craft stunning, high-quality websites and web applications for  businesses of all sizes.</p>
         </div>
         <div>
           <p className="uppercase text-[20px] font-[600]">Contact us</p>
