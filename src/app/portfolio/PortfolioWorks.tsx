@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { IoIosArrowForward } from "react-icons/io";
 import { PORTFOLIO } from "../../../constants";
+import ButtonIcon from "@/components/Global/ButtonIcon";
 
 type PROJECTITEM = {
   project: string;
@@ -38,7 +39,7 @@ const ProjectItem = ({ project, description, image, link }: PROJECTITEM) => {
 
 const PortfolioWorks = () => {
   return (
-    <section className="max-container padding-container pt-14 md:pt-20 lg:pt-24 mt-24 flex flex-col gap-[50px] lg:gap-[150px]">
+    <section className="max-container padding-container mt-14 md:mt-24 flex flex-col gap-[50px] lg:gap-[150px] justify-center">
       {PORTFOLIO.map((portfolio) => (
         <ProjectItem
           key={portfolio.project}
@@ -48,6 +49,10 @@ const PortfolioWorks = () => {
           link={portfolio.link}
         />
       ))}
+      <div className="flex justify-center">
+      <ButtonIcon text="view all our projects" />
+
+      </div>
     </section>
   );
 };
