@@ -4,6 +4,7 @@ import Vision from "./Vision";
 import MeetTheTeam from "./MeetTheTeam";
 import Clients from "./Clients";
 import FAQ from "./FAQ";
+import ElevateCard from "@/components/Home/ElevateCard";
 
 const page = () => {
   return (
@@ -13,6 +14,7 @@ const page = () => {
       <MeetTheTeam />
       <Clients />
       <FAQ />
+      <ElevateCard />
     </Layout>
   );
 };

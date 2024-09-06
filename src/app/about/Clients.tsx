@@ -68,7 +68,7 @@ const Clients = () => {
           that drive success.
         </p>
       </div>
-      <Carousel className="w-full">
+      <Carousel className="w-full mb-16 md:mb-40">
         <CarouselContent className="flex gap-10">
           {REVIEWS.map((review) => (
             <ReviewItem
