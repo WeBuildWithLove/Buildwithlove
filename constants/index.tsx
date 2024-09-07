@@ -91,19 +91,19 @@ export const REVIEWS = [
   {
     name: "Aniebiet Obo",
     position: "Developer BWL",
-    text: "“Build With Love provided us with reliable and efficient web solutions that streamlined our business operations. ",
+    text: "WeCr8t provided us with reliable and efficient web solutions that streamlined our business operations.",
     image: "/aniebet.png",
   },
   {
     name: "Aniebiet Obo",
     position: "Developer BWL",
-    text: "“Build With Love provided us with reliable and efficient web solutions that streamlined our business operations. ",
+    text: "WeCr8t provided us with reliable and efficient web solutions that streamlined our business operations.",
     image: "/aniebet.png",
   },
   {
     name: "Aniebiet Obo",
     position: "Developer BWL",
-    text: "“Build With Love provided us with reliable and efficient web solutions that streamlined our business operations. ",
+    text: "WeCr8t provided us with reliable and efficient web solutions that streamlined our business operations.",
     image: "/aniebet.png",
   },
 ];
@@ -111,12 +111,12 @@ export const REVIEWS = [
 // FAQs
 export const FAQS = [
   {
-    question: "What services does BuildWithLove offer?",
+    question: "What services does WeCr8t offer?",
     answer:
       "We offer website development, portfolio development, UI/UX design, digital marketing, branding and identity, and consulting and strategy.",
   },
   {
-    question: "How can I get started with BuildWithLove?",
+    question: "How can I get started with WeCr8t?",
     answer:
       "Contact us through our website’s contact form, call us at [Your Phone Number], or email us at [Your Email Address]. We’ll schedule a consultation to discuss your needs and goals.",
   },
@@ -132,7 +132,7 @@ export const FAQS = [
       "We prioritize businesses that show a clear need and vision for their digital goals.",
   },
   {
-    question: "How much does it cost to develop a website with BuildWithLove?",
+    question: "How much does it cost to develop a website with WeCr8t?",
     answer:
       "Costs vary based on project complexity. We provide customized quotes after understanding your needs.",
   },
@@ -144,25 +144,25 @@ export const SERVICES = [
     text: "Website Development",
     description:
       "We specialize in custom website design that reflects your brand's identity and caters to your audience, ensuring seamless functionality across all devices. Our services include secure eCommerce solutions, easy-to-manage content management systems (CMS) like WordPress and Joomla, and ongoing maintenance and support to keep your site updated and secure.",
-      image: "/website.svg"
+    image: "/website.svg",
   },
   {
     text: "Portfolio Development",
     description:
       "Our portfolio development services encompass creating personal portfolios that beautifully showcase your skills and projects, unique and captivating designs for artists, designers, and photographers, and professional portfolios that effectively highlight your career achievements and progress.",
-      image: "portfolio.svg"
+    image: "portfolio.svg",
   },
   {
     text: "UI/UX Design",
     description:
       "Our UI/UX design services include comprehensive user research and analysis to understand your audience's needs, wireframing and prototyping to visualize user journeys and interfaces, creating engaging visual designs aligned with your brand, and conducting usability testing to ensure intuitive and user-friendly experiences",
-      image:"/design.svg"
+    image: "/design.svg",
   },
   {
     text: "Digital Marketing",
     description:
       "Our digital marketing services primarily focus on SEO to improve search engine visibility. We also offer content marketing to drive conversions with engaging content and social media management to increase brand awareness. Additionally, we provide targeted email marketing campaigns to nurture leads and retain customers, ensuring a comprehensive approach to boosting your online presence.",
-      image: "/marketing.svg"
+    image: "/marketing.svg",
   },
 ];
 
@@ -173,41 +173,41 @@ export const PORTFOLIO = [
     project: "Website Design for HOD LEGAL",
     description:
       "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry.",
-      link: "/"
+    link: "/",
   },
   {
     image: "/port2.svg",
     project: "Website Design for HOD LEGAL",
     description:
       "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry.",
-      link: "/"
+    link: "/",
   },
   {
     image: "/port1.svg",
     project: "Website Design for HOD LEGAL",
     description:
       "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry.",
-      link: "/"
+    link: "/",
   },
   {
     image: "/port2.svg",
     project: "Website Design for HOD LEGAL",
     description:
       "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry.",
-      link: "/"
+    link: "/",
   },
   {
     image: "/port1.svg",
     project: "Website Design for HOD LEGAL",
     description:
       "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry.",
-      link: "/"
+    link: "/",
   },
   {
     image: "/port2.svg",
     project: "Website Design for HOD LEGAL",
     description:
       "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry.",
-      link: "/"
+    link: "/",
   },
 ];

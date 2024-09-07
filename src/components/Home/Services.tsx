@@ -52,9 +52,9 @@ function Services() {
             Digital Marketing
           </p>
           <p className="font-[500] text-typography text-[12px] lg:text-[16px]">
-            At Build With Love, we know that a stunning website is just the
-            beginning. To truly thrive in the digital landscape, your business
-            needs a strategic and comprehensive digital marketing approach.
+            At WeCr8t, we know that a stunning website is just the beginning. To
+            truly thrive in the digital landscape, your business needs a
+            strategic and comprehensive digital marketing approach.
           </p>
         </div>
       </div>

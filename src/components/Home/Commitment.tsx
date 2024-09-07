@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../Global/Button";
 import Image from "next/image";
+import Link from "next/link";
 
 function Commitment() {
   return (
@@ -10,7 +11,7 @@ function Commitment() {
           Our Commitment to Charity
         </p>
         <p className="w-full lg:w-[60%] text-[14px] lg:text-[16px] text-center text-typography">
-          At BuildWithLove, We believe in giving back to the community. Each
+          At WeCr8t, We believe in giving back to the community. Each
           month, we provide freelancing pages and basic web services to two
           small businesses .This initiative helps them establish a strong online
           presence, contributing to their growth and success. We understand the
@@ -22,9 +23,9 @@ function Commitment() {
           width={220}
           height={220}
           className="xl:absolute right-0 bottom-0 mx-auto" />
-        <div className="w-[150px] lg:w-[18%]">
+        <Link className="w-[150px] lg:w-[18%]" href="https://forms.gle/H3TpBS64a2CBNUSb9" target="_blank">
           <Button type="filled" text="Apply Now" fill="#4B0082" />
-        </div>
+        </Link>
       </div>
     </div>
   );
