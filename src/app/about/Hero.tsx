@@ -17,10 +17,10 @@ const Hero = () => {
 
       <div className="mt-16 flex items-center justify-center flex-col gap-4 px-6 md:px-9 py-3 md:py-10 lg:py-[90px] border border-solid border-[#E1E1E1] rounded-xl max-w-[1230px] mx-auto">
         <h3 className="text-sm md:text-2xl text-[#4B0082] font-semibold">
-          About Build with Love
+          About WeCr8t
         </h3>
         <p className="text-[10px] md:text-xl md:leading-[31.2px] text-center font-light">
-          At Build With Love, we craft stunning, high-quality websites and web
+          At WeCr8t, we craft stunning, high-quality websites and web
           applications for businesses of all sizes. Our skilled team blends
           creativity and technical expertise to create custom digital solutions
           that help your business grow and engage more customers.We also believe

@@ -13,34 +13,37 @@ function Footer() {
       <div className="grid  lg:grid-cols-3 gap-[40px]">
         <div className=" ">
           <Link href="/">
-          <img src='/wecrete.png' className="w-[150px]" alt="" />
+            <img src="/logo-pup-light.png" className="w-[150px]" alt="" />
           </Link>
-        <p>At Wecre8T, we craft stunning, high-quality websites and web applications for  businesses of all sizes.</p>
+          <p>
+            At Wecre8T, we craft stunning, high-quality websites and web
+            applications for businesses of all sizes.
+          </p>
         </div>
         <div>
           <p className="uppercase text-[20px] font-[600]">Contact us</p>
           <div className="mt-[10px] flex flex-col space-y-[10px]">
             <div className="flex items-center space-x-[10px]">
-              <CiMail  className="text-[#1A1A1A] text-[20px]"/>
-              <p className="text-[18px]">buildwithlove gmail.com</p>
+              <CiMail className="text-[#1A1A1A] text-[20px]" />
+              <p className="text-[18px]">WeCr8t gmail.com</p>
             </div>
-            <div className="flex items-center space-x-[10px]">
-            <LuPhone className="text-[#1A1A1A] text-[20px]" />
+            {/* <div className="flex items-center space-x-[10px]">
+              <LuPhone className="text-[#1A1A1A] text-[20px]" />
               <p className="text-[18px]">+234 818 588 0532</p>
-            </div>
+            </div> */}
           </div>
         </div>
         <div>
           <p className="uppercase text-[20px] font-[600]">Connect</p>
           <div className="mt-[10px] flex flex-col space-y-[10px]">
-            <div className="flex items-center space-x-[10px]">
-              <FaLinkedinIn  className="text-[#1A1A1A] text-[20px]"/>
+            <Link className="flex items-center space-x-[10px]" href="https://www.linkedin.com/company/wecr8t" target="_blank">
+              <FaLinkedinIn className="text-[#1A1A1A] text-[20px]" />
               <p className="text-[18px]">LinkedIn</p>
-            </div>
-            <div className="flex items-center space-x-[10px]">
-            <FaSquareXTwitter className="text-[#1A1A1A] text-[20px]" />
+            </Link>
+            <Link className="flex items-center space-x-[10px]" href="https://x.com/We_Cr8T" target="_blank">
+              <FaSquareXTwitter className="text-[#1A1A1A] text-[20px]" />
               <p className="text-[18px]">Twitter(X)</p>
-            </div>
+            </Link>
           </div>
         </div>
         {/* <div className="">
@@ -61,8 +64,11 @@ function Footer() {
         </div> */}
       </div>
       <div className="w-full border-t p-[20px] border-[#CFCFD1] flex items-center justify-center space-x-[5px] mt-[50px]">
-      <FaRegCopyright />
-        <p className="text-[12px] lg:text-[16px]">Copyright 2024 .<span className="font-[500]">Buildwithlove</span>. All Right Reserved.</p>
+        <FaRegCopyright />
+        <p className="text-[12px] lg:text-[16px]">
+          Copyright 2024 .<span className="font-[500]">WeCr8t</span>. All Right
+          Reserved.
+        </p>
       </div>
     </div>
   );
