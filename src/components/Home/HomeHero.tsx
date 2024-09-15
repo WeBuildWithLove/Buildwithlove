@@ -49,12 +49,12 @@ function HomeHero() {
           // onMouseLeave={plugin.current.reset}
         >
           <CarouselContent className="flex items-center ">
-            <CarouselItem className="pl-1 basis-1/2 lg:basis-1/3">
+            <CarouselItem className=" basis-1/2 lg:basis-1/3">
               <div>
                 <Image src="/chess.png" alt="chess" width={45} height={60} />
               </div>
             </CarouselItem>
-            <CarouselItem className="pl-4 basis-1/2 lg:basis-1/3">
+            <CarouselItem className=" basis-1/2 lg:basis-1/3">
                 <Image
                   src="/logo-white-dark.png"
                   alt="wecr8t"

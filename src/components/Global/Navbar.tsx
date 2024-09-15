@@ -18,13 +18,20 @@ function Navbar() {
     <div className="flex items-center justify-between p-0 lg:p-[20px_30px] border font-manrope sticky bg-white top-0 z-20 shadow">
       <div className="p-[20px] lg:p-0 flex items-center justify-between lg:justify-start w-full lg:w-fit">
         <Link href="/">
-          <img src="/logo-pup-light.png" className="w-[150px]" alt="" />
+          <img src="/logo-pup-light.png" className="w-[120px]" alt="" />
         </Link>
         <div className="lg:hidden" onClick={() => setOpen(!open)}>
-          <FiMenu className="text-[25px]" />
+          {open ? (
+            <FiPlus
+              onClick={() => setOpen(!open)}
+              className="text-[30px] rotate-45"
+            />
+          ) : (
+            <FiMenu className="text-[25px]" />
+          )}
         </div>
       </div>
-      <div className="hidden lg:flex items-center space-x-[40px] mr-[-10%] ">
+      <div className="hidden  lg:flex items-center space-x-[40px] mr-[-10%] ">
         {links.map((link, index) => (
           <Link
             key={index}
@@ -36,11 +43,13 @@ function Navbar() {
             }
           >
             {link.name}
-            <div className={
-              currentPath === link.url
-                ? "bg-[#4B0082] w-full h-[3px] absolute top-[54px] "
-                : ""
-            } />
+            <div
+              className={
+                currentPath === link.url
+                  ? "bg-[#4B0082] w-full h-[3px] absolute top-[54px] "
+                  : ""
+              }
+            />
           </Link>
         ))}
       </div>
@@ -51,14 +60,14 @@ function Navbar() {
       <div
         className={`${
           open ? "left-0" : "left-[-100%]"
-        } lg:hidden fixed top-0 h-screen bg-white w-full p-[20px] transition-all`}
+        } lg:hidden fixed top-0 h-screen bg-[#4B0082] w-[80%] p-[20px] transition-all delay-100`}
       >
-        <div className="flex w-full items-center justify-end">
+        {/* <div className="flex w-full items-center justify-end">
           <FiPlus
             onClick={() => setOpen(!open)}
             className="text-[30px] rotate-45"
           />
-        </div>
+        </div> */}
         <div className="flex flex-col items-start space-y-[20px]">
           {links.map((link, index) => (
             <Link
@@ -67,8 +76,8 @@ function Navbar() {
               href={link.url}
               className={
                 currentPath === link.url
-                  ? "text-[#4B0082] hover:text-primary uppercase text-[20px] font-[600] text-center"
-                  : "uppercase"
+                  ? "text-white hover:text-primary uppercase text-[20px] font-[600] text-center"
+                  : "uppercase text-white"
               }
             >
               {link.name}
