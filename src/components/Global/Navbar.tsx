@@ -36,11 +36,13 @@ function Navbar() {
             }
           >
             {link.name}
-            <div className={
-              currentPath === link.url
-                ? "bg-[#4B0082] w-full h-[3px] absolute top-[54px] "
-                : ""
-            } />
+            <div
+              className={
+                currentPath === link.url
+                  ? "bg-[#4B0082] w-full h-[3px] absolute top-[54px] "
+                  : ""
+              }
+            />
           </Link>
         ))}
       </div>
