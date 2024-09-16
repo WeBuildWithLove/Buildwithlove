@@ -54,9 +54,9 @@ function Navbar() {
           </Link>
         ))}
       </div>
-      <div className="hidden lg:flex w-[180px]">
+      <Link href="/contact" className="hidden lg:flex w-[180px]">
         <Button type="outlined" text="Get Started" fill="#4B0082" />
-      </div>
+      </Link>
 
       {/* Mobile Menu */}
       <div
@@ -64,7 +64,7 @@ function Navbar() {
           open ? "left-0" : "left-[-100%]"
         } lg:hidden fixed top-0 h-screen bg-[#4B0082] w-[80%] p-[20px] transition-all duration-300 ease-in-out`} // Add smooth transition here
       >
-        <div className="flex flex-col items-start space-y-[20px]">
+        <div className="flex flex-col items-start space-y-[40px]">
           {links.map((link, index) => (
             <Link
               key={index}
@@ -80,8 +80,10 @@ function Navbar() {
             </Link>
           ))}
         </div>
-        <div className="mt-[20px] w-[180px]">
-          <Button type="outlined" text="Get Started" fill="#4B0082" />
+        <div className="mt-20">
+          <Link href="/contact" className="pt-[20px] w-[180px]">
+            <Button type="outlined" text="Get Started" fill="#4B0082" />
+          </Link>
         </div>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import ButtonIcon from "@/components/Global/ButtonIcon";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -13,7 +14,10 @@ const Hero = () => {
           Combining creativity and technical expertise to help your business
           grow and engage your audience.
         </p>
-        <ButtonIcon text="view our portfolio" />
+
+        <Link href="/portfolio">
+          <ButtonIcon text="view our portfolio" />
+        </Link>
       </div>
 
       <div className="mt-16 flex items-center justify-center flex-col gap-4 px-6 md:px-9 py-3 md:py-10 lg:py-[90px] border border-solid border-[#E1E1E1] rounded-xl max-w-[1230px] mx-auto">

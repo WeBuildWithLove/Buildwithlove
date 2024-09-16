@@ -15,9 +15,8 @@ const Clients = () => {
           experiences that drive results.
         </p>
       </div>
-      <div className="w-full">
-        <Recommendations />
-      </div>
+
+      <Recommendations />
     </section>
   );
 };

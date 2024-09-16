@@ -1,12 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import Button from "./Button";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaRegCopyright, FaSquareXTwitter } from "react-icons/fa6";
 import { CiMail } from "react-icons/ci";
-import { LuPhone } from "react-icons/lu";
 import Link from "next/link";
-import Image from "next/image";
+
 function Footer() {
   return (
     <div className="grid gap-y-[20px] p-[20px_30px] font-manrope mt-[50px]">
@@ -27,10 +25,6 @@ function Footer() {
               <CiMail className="text-[#1A1A1A] text-[20px]" />
               <p className="text-[18px]">contact@wecr8t.xyz</p>
             </div>
-            {/* <div className="flex items-center space-x-[10px]">
-              <LuPhone className="text-[#1A1A1A] text-[20px]" />
-              <p className="text-[18px]">+234 818 588 0532</p>
-            </div> */}
           </div>
         </div>
         <div>

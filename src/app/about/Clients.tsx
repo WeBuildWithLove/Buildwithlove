@@ -4,6 +4,7 @@ import React from "react";
 
 import Recommendations from "@/components/Global/Recommendations";
 import Button from "@/components/Global/Button";
+import Link from "next/link";
 
 const Clients = () => {
   return (
@@ -25,9 +26,12 @@ const Clients = () => {
         <p className="md:max-w-[580px] text-center text-[10px] md:text-2xl mx-auto pt-3 text-[#4B0082]">
           Ready to elevate your business?{" "}
         </p>
-        <div className="flex flex-col justify-center mx-auto items-center mt-4 w-[160px] lg:w-[220px]">
+        <Link
+          href="/contact"
+          className="flex flex-col justify-center mx-auto items-center mt-4 w-[160px] lg:w-[220px]"
+        >
           <Button type="filled" text="Start project!" fill="#4B0082" />
-        </div>
+        </Link>
       </div>
       <div className="mt-14 md:mt-36 mb-9">
         <h3 className="text-sm md:text-2xl text-[#4B0082] font-semibold text-center mb-3">

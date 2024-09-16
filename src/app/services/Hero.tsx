@@ -1,4 +1,5 @@
 import ButtonIcon from "@/components/Global/ButtonIcon";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -10,7 +11,9 @@ const Hero = () => {
         <p className="my-3 md:my-6 w-[202px] md:w-full text-center text-[8px] text-[#323337] md:text-sm lg:text-xl">
           We turn your ideas into digital solutions that grow your business.
         </p>
-        <ButtonIcon text="start project" />
+        <Link href="/contact">
+          <ButtonIcon text="start project" />
+        </Link>
       </div>
     </section>
   );

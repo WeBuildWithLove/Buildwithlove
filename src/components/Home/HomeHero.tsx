@@ -4,6 +4,7 @@ import React from "react";
 import Button from "../Global/Button";
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
+import Link from "next/link";
 
 function HomeHero() {
   return (
@@ -23,9 +24,9 @@ function HomeHero() {
         we bring your vision to life and make sure your brand shines online.
       </p>
 
-      <div className="w-[160px] lg:w-[220px]">
+      <Link href="/contact" className="w-[160px] lg:w-[220px]">
         <Button type="filled" text="START PROJECT" fill="#4B0082" />
-      </div>
+      </Link>
       <div className="h-[69px] w-full bg-[#4B0082] mt-[50px] flex justify-center items-center">
         <Marquee pauseOnClick pauseOnHover className=" ">
           <div className="flex items-center gap-[60px]">

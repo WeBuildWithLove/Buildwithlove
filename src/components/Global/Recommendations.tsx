@@ -23,7 +23,7 @@ type REVIEWITEM = {
 
 const ReviewItem = ({ name, position, text, image }: REVIEWITEM) => {
   return (
-    <CarouselItem className="px-7 py-10 flex flex-col gap-4 items-center border border-solid border-[#E1E1E1] rounded-xl basis-3/4 md:basis-1/2 lg:basis-1/3">
+    <CarouselItem className="px-7 py-10 flex flex-col gap-4 items-center border border-solid border-[#E1E1E1] rounded-xl md:basis-1/2 lg:basis-1/3">
       <Image
         src={image}
         width={87}
