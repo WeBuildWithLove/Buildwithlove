@@ -5,7 +5,7 @@ type ButtonProps = {
   fill?: string;
   type: "outlined" | "filled";
   text: string;
-  onClick: () => void;
+  onClick?: () => void;
   disabled?: boolean;
 };
 
