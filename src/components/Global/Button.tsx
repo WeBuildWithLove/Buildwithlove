@@ -5,11 +5,15 @@ type ButtonProps = {
   fill?: string;
   type: "outlined" | "filled";
   text: string;
+  onClick: () => void;
+  disabled?: boolean;
 };
 
-function Button({ type, fill, text }: ButtonProps) {
+function Button({ type, fill, text, onClick, disabled }: ButtonProps) {
   return (
     <button
+    disabled={disabled}
+    onClick={onClick}
       className={`${
         type === "outlined" ? "h-[45px] lg:h-[50px] border text-black border-[#E1E1E1]" : "h-[40px] lg:h-[50px] text-white"
       }  w-full font-manrope flex items-center space-x-[10px]
