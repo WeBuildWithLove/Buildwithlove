@@ -20,10 +20,9 @@ function Contact() {
           <InputComponent type="text" placeholder="Enter your name" />
           <InputComponent type="email" placeholder="Enter your email" />
           <InputComponent type="tel" placeholder="Phone Number" />
-          <InputComponent type="tel" placeholder="Interest" />
           <InputComponent
             type="text"
-            placeholder="Message"
+            placeholder="How can we help you?"
             className="lg:col-span-2"
           />
         </form>

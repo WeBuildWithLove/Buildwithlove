@@ -6,14 +6,15 @@ import Services from "./services/Services";
 import HomeClient from "@/components/Home/HomeClient";
 import ElevateCard from "@/components/Home/ElevateCard";
 import FAQ from "./about/FAQ";
+import HomeServices from "@/components/Home/HomeServices";
 
 export default function Home() {
   return (
     <Layout>
-      <HomeHero/>
-      <Services/>
-      <Commitment/>
-      <HomeClient/>
+      <HomeHero />
+      <HomeServices />
+      <Commitment />
+      <HomeClient />
       <FAQ />
       <ElevateCard />
     </Layout>

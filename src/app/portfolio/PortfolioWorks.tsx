@@ -50,8 +50,7 @@ const PortfolioWorks = () => {
         />
       ))}
       <div className="flex justify-center">
-      <ButtonIcon text="view all our projects" />
-
+        {/* <ButtonIcon text="view all our projects" /> */}
       </div>
     </section>
   );

@@ -6,6 +6,7 @@ type VisionComponentProp = {
   description: string;
   icon?: React.ReactNode;
   img?: string;
+  bullets?: string[];
 };
 
 const VisionComponent = ({
@@ -13,6 +14,7 @@ const VisionComponent = ({
   description,
   icon,
   img,
+  bullets,
 }: VisionComponentProp) => {
   return (
     <div className="max-w-[600px] border border-solid border-[#E1E1E1] rounded-xl px-4 py-4 md:px-8 md:py-8 flex flex-col gap-3">
@@ -31,6 +33,13 @@ const VisionComponent = ({
       <p className="text-[#323337] md:leading-[28px] text-[10px] md:text-base">
         {description}
       </p>
+      {bullets && (
+        <ul className="list-disc list-inside text-[#323337] text-[10px] md:text-base custom-bullets">
+          {bullets.map((bullet, index) => (
+            <li key={index}>{bullet}</li>
+          ))}
+        </ul>
+      )}
     </div>
   );
 };

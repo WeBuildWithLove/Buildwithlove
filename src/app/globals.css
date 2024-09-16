@@ -86,3 +86,7 @@
     font-size: 20px;
   }
 }
+
+.custom-bullets li::marker {
+  color: #4B0082; /* Change to your desired bullet color */
+}
